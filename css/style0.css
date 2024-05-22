@@ -1,0 +1,120 @@
+body {
+    font: oblique bold 120% cursive;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.si{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.si p {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #6b6b6b;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #77aaff;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #77aaff;
+    font-weight: bold;
+}
+
+.hero {
+    color: #faf8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+.hero {
+    background-image: url("../img/estudiantes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 520px;
+}
+
+.hero .btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #77aaff;
+}
+
+.info {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.courses {
+    padding: 30px 0;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+
+footer p {
+    margin: 0;
+}
